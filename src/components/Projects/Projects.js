@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import vdscnft from "../../Assets/Projects/vdscnft.png";
+import voltichange from "../../Assets/Projects/voltichange.png";
+import trillernfts from "../../Assets/Projects/trillernfts.png";
+import healthysportindex from "../../Assets/Projects/healthysportindex.png";
+import choicehotels from "../../Assets/Projects/choicehotels.png";
+import myself from "../../Assets/Projects/myself.png";
 
 function Projects() {
   return (
@@ -23,62 +23,61 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={vdscnft}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              demoLink="https://chatify-49.web.app/"
+              title="VDSC NFT"
+              description="By minting a Volted Dragons Sailors Club, you will have your dragon randomly generated and a unique one of a kind. You may end up being the most legendary dragon of them all! The price is the same for everyone to mint."
+              demoLink="https://volteddragons.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={voltichange}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Volt Exchange"
+              description="exchange platform for ETH and BSC network with Volt token and several stable tokens. You can get a giant profit from volt token. Please, connect your wallet to view your favorite trades."
+              demoLink="https://voltichange.net"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={trillernfts}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="NFT Marketplace"
+              description="Web3 ownership, engagement & utility tools. Easily create and sell NFTs. No coding required, setup in 5 minutes. With a few clicks, deploy smart contracts on Ethereum, Polygon, Avalanche, Solana and more, with support for ERC721, ERC721A, ERC1155, NTTs, royalties and more."
+              demoLink="https://www.trillernfts.com"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={healthysportindex}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Healthy Sport Index"
+              description="Find The Best Sport For You. The Healthy Sport Index is the world’s first-ever tool that assesses the relative benefits and risks of participating in the most popular sports for adolescents. Learn about each sport, and customize the index by adjusting the dial below based on your health criteria."
+              demoLink="https://healthysportindex.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={choicehotels}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Choice Hotels"
+              description="Choice Hotels International officially welcomes Radisson Hotels Americas to the family. With the addition of more than 600 Radisson hotels, Choice now offers more properties to visit in new destinations across the U.S., Canada, the Caribbean and Latin America."
+              demoLink="https://choicehotels.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={myself}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Myself:LifeStyle"
+              description="Myself is the lifestyle magazine for women who know what they want from life. We inspire and inform, show the latest fashion and beauty trends, present strong personalities and provide inspiration for a self-determined, happy life. Whether business questions or family problems!"
+              demoLink="https://myself.de/"
             />
           </Col>
         </Row>
